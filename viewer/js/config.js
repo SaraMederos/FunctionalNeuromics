@@ -8,31 +8,4 @@
 //    dont get it right, ie the full tsv will still be parsed despite this being wrong. It 
 //    is used by the loading page piecharts to calc how far we are 
 // 5. Leave zoomLevels to 10 
-function config() {
-
-    return {
-
-       "cellData": {"mediaLink": "../../data/cellData.tsv", "size": "3185788"},
-
-       "geneData": {"mediaLink": "../../data/geneData.tsv", "size": "40045323"},
-
-       "cellBoundaries": {"mediaLink": "../../data/cellBoundaries.tsv", "size": "2089647"},
-
-       "roi": {"x0": 0, "x1": 7658, "y0": 0, "y1": 5886},
-
-       "zoomLevels": 10,
-
-       layers: {  'tdtom': '../../data/tiles_tom/{z}/{y}/{x}.jpg',
-
-                           'dapi': '../../data/tiles/{z}/{y}/{x}.jpg',
-
-                          'empty': '',
-
- 
-
-},
-
-        }
-
-}
-   
+ function config() { return {"cellData": {"mediaLink": "../../data/cellData.tsv", "size": "2873389"}, "geneData": {"mediaLink": "../../data/geneData.tsv", "size": "48593864"}, "cellBoundaries": {"mediaLink": "../../data/cellBoundaries.tsv", "size": "1765078"}, "roi": {"x0": 0, "x1": 7652, "y0": 0, "y1": 5882}, "zoomLevels": 10, "tiles": "https://storage.googleapis.com/ca1-data/img/262144px/{z}/{y}/{x}.jpgZZZ"} }
